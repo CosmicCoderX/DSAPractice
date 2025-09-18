@@ -8,6 +8,17 @@ public class UniqueNumbers {
         for(int i=0; i<n; i++){
             nums[i] = sc.nextInt();
         }
-        System.out.println();
+        System.out.println(Unique(nums));
+    }
+
+    static int Unique(int[] nums){
+        Set<Integer> set = new HashSet<>();
+        int count = 0;
+        for(int num : nums){
+            if(!set.add(num)){
+                count++;
+            }
+        }
+        return count;
     }
 }
