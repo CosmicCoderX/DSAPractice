@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class LL {
+public class SinglyLL {
 
     public static class Node {
         int val;

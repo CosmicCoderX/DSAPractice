@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class BasicLL {
+public class BasicSingleLL {
     public static  class Node{
         int data; //value
         Node next; //address of next node
