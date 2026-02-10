@@ -1,6 +1,5 @@
 package Stack;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
 public class BasicsOfStack {
@@ -15,6 +14,8 @@ public class BasicsOfStack {
         st.push(1);
         System.out.println("Size is: "+st.size());
         System.out.println(st);
+
+        System.out.println(st.isEmpty());
 
         st.push(30);
         System.out.println("Size is: "+st.size());
