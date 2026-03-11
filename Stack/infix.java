@@ -16,8 +16,8 @@ public class infix {
             int ascii = (int) ch;
 
             // If digit → push to value stack
-            if(ascii >= 48 && ascii <= 57){
-                val.push(ascii - 48);
+            if(Character.isDigit(ch)){
+                val.push(ch - '0');
             }
 
             // If stack empty OR '(' OR top is '('
